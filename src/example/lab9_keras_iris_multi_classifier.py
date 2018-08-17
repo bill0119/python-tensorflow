@@ -8,7 +8,7 @@ from pandas import read_csv
 from sklearn.model_selection import KFold, cross_val_score
 from sklearn.preprocessing import LabelEncoder
 
-dataFrame1 = read_csv(".\\data\\iris_data\\iris.data", header=None)
+dataFrame1 = read_csv("./data/iris_data/iris.data", header=None)
 dataset = dataFrame1.values
 # print(dataFrame1.head())
 features = dataset[:, 0:4].astype(float)

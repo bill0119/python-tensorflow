@@ -4,7 +4,7 @@ from keras.models import Sequential
 
 numpy.random.seed(20180804)
 
-dataset1 = numpy.loadtxt('.\\data\\diabete_data\\pima-indians-diabetes.data', delimiter=',')
+dataset1 = numpy.loadtxt('./data/diabete_data/pima-indians-diabetes.data', delimiter=',')
 print(type(dataset1), dataset1[0, :])
 print(dataset1.size, dataset1.shape)
 

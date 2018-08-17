@@ -8,7 +8,7 @@ from sklearn.model_selection import StratifiedKFold
 
 numpy.random.seed(20180811)
 
-dataset1 = numpy.loadtxt('.\\data\\diabete_data\\pima-indians-diabetes.data', delimiter=',')
+dataset1 = numpy.loadtxt('./data/diabete_data/pima-indians-diabetes.data', delimiter=',')
 print(type(dataset1), dataset1[0, :])
 print(dataset1.size, dataset1.shape)
 inputList = dataset1[:, 0:8]

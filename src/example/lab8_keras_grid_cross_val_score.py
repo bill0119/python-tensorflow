@@ -6,7 +6,7 @@ from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.model_selection import StratifiedKFold
 
-dataset1 = numpy.loadtxt('.\\data\\diabete_data\\pima-indians-diabetes.data',
+dataset1 = numpy.loadtxt('./data/diabete_data/pima-indians-diabetes.data',
                          delimiter=',')
 inputList = dataset1[:, 0:8]  # x1,x2....x8
 resultList = dataset1[:, 8]  # y
